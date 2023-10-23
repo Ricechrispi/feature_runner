@@ -1,0 +1,11 @@
+{
+    "name" : "feature_output",
+    "executable" :  "/PATH_TODO/feature_wrapper.sh",
+    "configs" : "feature_configs.txt",
+    "instances" : "instances.txt",
+    "timeout" : 3600,
+    "mem_limit" : 210000,
+    "request_cpus" : 12,
+    "working_dir" : ".",
+    "exclusive": true
+}
